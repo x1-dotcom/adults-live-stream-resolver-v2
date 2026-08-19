@@ -64,7 +64,3 @@ Join our official community for updates, technical discussions, and announcement
 Created & Released by X1 Stream Engine Team.
 
 
-
----
-### 💡 Dica no GitHub:
-Quando criar ou editar o `README.md` no site do GitHub, cole exatamente o código do bloco acima. O GitHub vai transformar todos os `#`, `##`, `###` e tabelas numa página lindíssima e perfeitamente formatada! 🚀✨
