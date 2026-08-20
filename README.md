@@ -1,66 +1,60 @@
-# 🚀 Adults Live Stream Resolver Script v2.0 (WORKING 2026)
-### Auto-Resolving HLS Live Stream Script for Xtream Codes, Load Balancers & IPTV Panels
+<p align="center"><img src="./assets/x1-resolver-hero.svg" alt="X1 Adult Live Stream Resolver v2" width="100%" /></p>
+<p align="center"><img src="./assets/x1-resolver-status.svg" alt="X1 resolver evidence status" width="100%" /></p>
+
+# X1 Adult Live Stream Resolver v2
+
+**Public X1 utility for resolving and normalizing authorized HLS live-stream sources.**
+
+This repository currently ships a packaged obfuscated v2 release. The package being present in Git does not prove that every upstream source is online, that every channel still resolves, that response time meets a fixed threshold, or that a particular deployment environment is runtime-compatible.
+
+## What this utility is for
+
+The resolver is intended to sit between an authorized upstream HLS source and a client or IPTV control surface, providing a stable resolver endpoint and normalized output for integrations that need it.
+
+<p align="center"><img src="./assets/x1-resolver-boundary.svg" alt="X1 resolver usage boundary" width="100%" /></p>
+
+## Release posture
+
+Current repository evidence proves that an obfuscated v2 release archive is present:
+
+`adults_script_v2.0_OBFUSCATED.zip`
+
+That is **PROVEN BY SOURCE / REPOSITORY CONTENT** only. Runtime behavior depends on the exact upstream source, network path, PHP environment, web server and client integration.
+
+`PACKAGE PRESENT ≠ TESTED ≠ RUNTIME VERIFIED`
+
+## General compatibility target
+
+The packaged utility is designed for PHP/web-server deployment and HLS-oriented integrations. Exact support for a particular PHP release, web server, player, panel or load-balancer environment must be validated against that target rather than inferred from this README.
+
+## Usage boundary
+
+Use this project only with streams and content that you are authorized to access, process and redistribute. This repository does not grant rights to third-party channels, feeds, trademarks or programming.
+
+Do not use the resolver to bypass authentication, subscription controls, DRM, access-control mechanisms or other technical restrictions protecting content you are not authorized to access.
+
+## Operational guidance
+
+- deploy the release in an isolated application path;
+- keep production credentials and provider secrets outside the web root and outside Git;
+- expose only the endpoints required by the integration;
+- validate TLS, CORS and proxy behavior for the actual deployment environment;
+- measure resolver latency from the real deployment instead of relying on hard-coded performance claims;
+- treat upstream availability as external state that can change independently of the resolver;
+- monitor failures and fail closed where source authorization or resolver state is ambiguous.
+
+## Evidence language
+
+When describing the project, distinguish:
+
+`PROVEN BY SOURCE` · `PROVEN BY TEST` · `PROVEN BY RUNTIME` · `INFERRED` · `UNKNOWN / UNPROVEN` · `RUNTIME NOT VERIFIED`
+
+The previous README included absolute claims such as every listed channel being online, fixed sub-200 ms behavior and “100% working”. Those claims are not retained because the current repository alone cannot prove them continuously.
+
 ---
-## 📌 Overview
-This repository contains the updated, 100% working **Adults Live Stream Resolver Script v2.0**. It provides automated, high-performance stream resolution for **all 36 live adult television channels** with sub-200ms response time and seamless IPTV client compatibility.
-Whether you are running an Xtream Codes load balancer, custom IPTV panel, or web-based media player, this resolver delivers stable, zero-buffer live streaming out of the box.
----
-## 🔥 Key Features
-- ⚡ **Instant Token Resolver**: Sub-200ms automated HLS `.m3u8` extraction engine.
-- 🛡️ **Protected Codebase**: Obfuscated PHP code protecting core extraction algorithms.
-- 🌐 **Full CORS & IPTV Compatibility**: Works out of the box with VLC, Xtream Codes, Tivimate, Smart TV, and web players.
-- 🔄 **Automatic Load Balancer URL Detection**: Auto-detects server IP, domain, HTTP/HTTPS scheme and port.
----
-## 📋 System Requirements
-- **Web Server**: Apache, Nginx, LiteSpeed, or Xtream Codes Load Balancer.
-- **PHP Version**: PHP 7.4, 8.0, 8.1, 8.2, or 8.3.
-- **PHP Extensions**: `curl`, `json`, `zlib`.
----
-## 🛠️ Installation & Configuration
-### Step 1: Upload Files
-Upload all files into your load balancer or web server directory:
-```text
-/opt/x1/www/adults/
-Step 2: Access Endpoints
-📡 Full Playlist M3U URL:
-text
 
+**RESOLVE THE SOURCE.**  
+**VERIFY THE OUTPUT.**  
+**USE AUTHORIZED CONTENT.**
 
-http://YOUR_SERVER_IP:PORT/adults/list.php
-🎬 Single Channel Stream Endpoint (for Panel Assignment):
-text
-
-
-http://YOUR_SERVER_IP:PORT/adults/master.php?id=brazzers_eu
-📺 Supported Channel List (36 Channels)
-Channel Slug	Channel Name	Status
-brazzers_eu	Brazzers TV Europe	🟢 ONLINE
-olala	O-La-La	🟢 ONLINE
-dorcel-tv	Dorcel TV	🟢 ONLINE
-hustlerhd	Hustler HD	🟢 ONLINE
-sextosenso	Sextosenso	🟢 ONLINE
-hustler	Hustler TV	🟢 ONLINE
-pink	Pink O TV	🟢 ONLINE
-private-tv	Private TV	🟢 ONLINE
-passion	PassionXXX	🟢 ONLINE
-sct	SCT TV	🟢 ONLINE
-centoxcento	Cento X Cento	🟢 ONLINE
-redlight	RedLight HD	🟢 ONLINE
-nuart	Nuart TV	🟢 ONLINE
-dusk	Dusk	🟢 ONLINE
-jasmin	Jasmin TV	🟢 ONLINE
-playboy	Playboy TV	🟢 ONLINE
-xmuvi-tv	XMuvi TV	🟢 ONLINE
-candy-tv	Candy TV	🟢 ONLINE
-babes-tv	Babes TV	🟢 ONLINE
-vivid-red	Vivid Red	🟢 ONLINE
-fap-tv-2 .. fap-tv-compilation	FAP TV Network (8 Channels)	🟢 ONLINE
-rusnoch, nochnoiclub, oh-ah, egoist, erox-hd, shalun-tv, penthouse-1, penthouse-2	Adult Premium Bundle	🟢 ONLINE
-🌐 Official Community & Support
-Join our official community for updates, technical discussions, and announcements:
-
-💬 Telegram Community: Join Telegram Group
-🌐 Official Forum: Visit X1 Forum
-Created & Released by X1 Stream Engine Team.
-
-
+**X1 // PUBLIC MEDIA UTILITY**
