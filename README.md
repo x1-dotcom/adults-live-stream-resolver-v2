@@ -27,6 +27,10 @@ This repository currently ships a packaged obfuscated v2 release. Package presen
 > **Free means functional.**
 > Public X1 software is intended to be useful as released, while runtime claims remain evidence-based.
 
+<p align="center">
+  <img src="./assets/x1-resolver-command-deck.svg" alt="X1 resolver command deck" width="100%" />
+</p>
+
 ---
 
 ## Operational surface
