@@ -7,11 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="https://x1panelhq.com"><strong>WEBSITE</strong></a>
+  <a href="https://x1panelhq.com/?utm_source=github&utm_medium=repo&utm_campaign=x1_launch_2026"><strong>WEBSITE</strong></a>
   &nbsp;·&nbsp;
   <a href="https://forum.x1panelhq.com"><strong>FORUM</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://discord.gg/vSSw6jHmw"><strong>DISCORD</strong></a>
   &nbsp;·&nbsp;
   <a href="https://t.me/+XkuQS_QuD6g4Nzc0"><strong>TELEGRAM</strong></a>
 </p>
@@ -102,7 +100,6 @@ Absolute claims such as every listed source being online, fixed sub-200 ms behav
 ## Community
 
 - Forum — https://forum.x1panelhq.com
-- Discord — https://discord.gg/vSSw6jHmw
 - Telegram — https://t.me/+XkuQS_QuD6g4Nzc0
 
 ---
